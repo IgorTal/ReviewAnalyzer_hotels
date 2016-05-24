@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    #'django_mongodb_engine' , 
+    #'django_mongodb_engine' ,
     'hotel_reviews' ,
 ]
 
@@ -80,8 +80,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-        #'ENGINE' : 'django_mongodb_engine' , 
-        #'NAME' : 'hotel_reviews', 
+        #'ENGINE' : 'django_mongodb_engine' ,
+        #'NAME' : 'hotel_reviews',
+        #just a simple comment
     }
 }
 
@@ -126,4 +127,4 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "static"),
-    ]   
+    ]
