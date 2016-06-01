@@ -9,4 +9,4 @@ A key problem faced by managers of multiple hotel properties is to manage real c
 2. A multi-class text classification engine that sorts the "really really bad" reviews that need immediate (and often most) attention because they really stand out and damage the brand 
 3. Future: categorize good and bad reviews to category to know "what works / does not work" . 
 
-![alt tag](https://raw.githubusercontent.com/IgorTal/ReviewAnalyzer_hotels/master/flowchart.png)
+![alt tag](flowchart.png)
